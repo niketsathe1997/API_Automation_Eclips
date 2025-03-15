@@ -19,7 +19,7 @@ public class Tests_POST {
 		map.put("name","Niket");
 		map.put("job", "study");
 		JSONObject request = new JSONObject(map);
-		System.out.println(request);
+		//System.out.println(request);
 		
 		given().
 		//header("Content-Type", "application/json").
